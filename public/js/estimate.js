@@ -20,3 +20,19 @@ t.render(function(){
     t.sizeTo('#estimate').done();
   });
 });
+
+
+const fetch = require('node-fetch');
+
+const bodyData = `{
+  "idModel": "5abbe4b7ddc1b351ef961414",
+  "modelType": "board",
+  "name": "<string>",
+  "type": "checkbox",
+  "options": "<string>",
+  "pos": "top",
+  "display_cardFront": true
+}`;
+
+
+
