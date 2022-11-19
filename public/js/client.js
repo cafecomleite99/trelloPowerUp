@@ -52,7 +52,7 @@ TrelloPowerUp.initialize({
   },
 });
 
-window.Trello.authorize({
+TrelloPowerUp.authorize({
   type: 'popup',
   name: 'Getting Started Application',
   scope: {
