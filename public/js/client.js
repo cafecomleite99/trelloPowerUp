@@ -14,7 +14,7 @@ const bodyData = `{
 }`;
 
 function create() {
-  fetch('https://api.trello.com/1/customFields?key=05b6872aa32005c40dec2e18df2576bb&token=09ec518306f076af868868f8183c8f26c7df9a2baf86d4a9e833f49ec4f1af65', {
+  fetch('https://api.trello.com/1/customFields?key=05b6872aa32005c40dec2e18df2576bb&token=956944964de92bb309e62d4ff4285114a4862cc8e721c9f51387751b485b16d9', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
