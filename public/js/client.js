@@ -5,7 +5,7 @@ var Promise = TrelloPowerUp.Promise;
 var BLACK_ROCKET_ICON = "https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421";
 
 function create() {
-  fetch('https://api.trello.com/1/customFields?key=APIKey&token=APIToken', {
+  fetch('https://api.trello.com/1/customFields?key=05b6872aa32005c40dec2e18df2576bb&token=09ec518306f076af868868f8183c8f26c7df9a2baf86d4a9e833f49ec4f1af65', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
