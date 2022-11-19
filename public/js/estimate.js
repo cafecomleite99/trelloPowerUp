@@ -12,4 +12,11 @@ window.estimate.addEventListener('submit', function(event){
 
 t.render(function(){
   t.sizeTo('#estimate').done();
+  return t.get('card', 'shared', 'estimate')
+  .then(function(estimate){
+    window.estimateSize.value = estimate;
+  })
+  .then(function(){
+    t.sizeTo('#estimate').done();
+  });
 });
