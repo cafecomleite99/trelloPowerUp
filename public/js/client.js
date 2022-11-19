@@ -8,8 +8,7 @@ const bodyData = `{
   "idModel": "5abbe4b7ddc1b351ef961414",
   "modelType": "board",
   "name": "Tipo",
-  "type": "checkbox",
-  "options": "Consignado",
+  "type": "number",
   "pos": "top",
   "display_cardFront": true
 }`;
